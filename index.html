@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <P> Simple Calculator: CMSC 207 Assignment 1</P>
+</head>
+<body>
+<div>
+   <!--Create table for the layout and insert the buttons to the table cell-->
+        <table>
+            <tr>
+              <th colspan="6"></th>
+            </tr>
+            <tr>
+                <!--Row for the display and delete button-->
+             <th colspan="1"></th> 
+             <th colspan="4">
+                 <input  id="inputVal" class="answer" type="text">
+             </th>
+             <th colspan="1">
+                 <button id="delete" class="btnsdEL" value="Backspace"> X </button>   
+             </th> 
+         </tr>
+         <tr>
+             <th colspan="6"></th>
+         </tr>
+     
+         <tr>
+              <!--Row for the clear, ^, (, ), * buttons-->   
+             <th colspan="1"></th>  
+             <th colspan="1">
+                 
+                 <button id="clear" class="btnclear" value="Clear"> C </button>   
+             </th>
+             <th colspan="1">
+                 <button id="power" class="btns" value="^"> ^ </button>   
+             </th>
+             <th colspan="1">
+                 <button id="openPar" class="btns" value="("> ( </button>   
+             </th> 
+             <th colspan="1">
+                 <button id="closPar" class="btns" value=")"> ) </button>       
+             </th> 
+             <th colspan="1">
+                 <button id="mult" class="btns" value="*"> * </button>
+             </th> 
+     
+                     
+         </tr>
+         <tr>
+             <!--Row for the 0, 7, 8, 9, - buttons-->  
+             <th colspan="1"></th>  
+             <th colspan="1">
+                 <button id="zero" class="btns" value="0"> 0 </button>    
+             </th> 
+             <th colspan="1">
+                 <button id="seven" class="btns" value="7"> 7 </button>            
+             </th> 
+             <th colspan="1">
+                 <button id="eight" class="btns" value="8"> 8 </button>
+             </th> 
+             <th colspan="1">
+                 <button id="nine" class="btns" value="9"> 9 </button>
+             </th> 
+      
+             <th colspan="1">
+                 <button id="minus" class="btns" value="-"> - </button>
+             </th> 
+           
+         </tr>
+         <tr>
+              <!--Row for the 00, 4, 5, 6, + buttons-->  
+             <th colspan="1"></th>  
+             <th colspan="1">
+                 <button id="dzero" class="btns" value="00"> 00 </button>    
+             </th>  
+             <th colspan="1">
+                 <button id="four" class="btns" value="4"> 4 </button>            
+             </th> 
+             <th colspan="1">
+                 <button id="five" class="btns" value="5"> 5 </button>
+             </th> 
+             <th colspan="1">
+                 <button id="six" class="btns" value="6"> 6 </button>
+             </th> 
+     
+             <th colspan="1">
+                 <button id="plus" class="btns" value="+"> + </button>
+             </th> 
+           
+         </tr>
+         <tr>
+              <!--Row for the ., 1, 2, 3, / buttons-->  
+             <th colspan="1"></th> 
+             <th colspan="1">
+                 <button id="dot" class="btns" value="."> . </button>   
+             </th> 
+             <th colspan="1">
+                 <button id="one" class="btns" value="1"> 1 </button>    
+             </th> 
+             <th colspan="1">
+                 <button id="two" class="btns" value="2"> 2 </button>   
+             </th> 
+             <th colspan="1">
+                 <button id="three" class="btns" value="3"> 3 </button>   
+             </th> 
+             
+             <th colspan="1">
+                 <button id="divide" class="btns" value="/"> / </button>
+             </th> 
+         </tr>
+         <tr>
+             <!--Row for the = buttons-->  
+             <th colspan="1"></th> 
+        
+             <th colspan="5" rowspan="1">
+                 <button id=calculate  class="equals"> = </button>
+             </th>   
+         </tr>
+         <tr>
+             <th colspan="6"></th>          
+         </tr>
+     
+        </table>
+         <!--div for the history-->  
+        <div id="history-div">
+            <button id=clrHistory>Clear History</button>
+             <div id="history">
+            <ul id="ul-hist">
+            </ul>
+            </div>
+       </div>
+    </div>
+
+<script>
+
+ 
+
+</script>
+   
+<script src="./js/index.js"></script>
+<script src="./js/operations.js"></script>
+<script src="./js/map_op.js"></script>
+<script src="./js/history.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+body {
+  -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+  -webkit-scrollbar: none; 
+  background-attachment:fixed;
+  font-family: 'Open Sans';
+  font: size 30px;;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  text-transform:uppercase;
+  width:100%;
+  background-color:azure
+}
+/* set the position of the table and its color*/
+table {
+    position: relative;
+    top: 40px; 
+    left: 20px;   
+    font-family: Georgia, serif;
+    border-collapse: collapse;
+    width: 380px;
+    height:500px;
+    border:solid 5px;
+    border-color:brown;
+    background-color: lightgrey
+  }
+
+/*set the border of the rows and columns of table*/  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+/*set the history div scrollable and set its size*/  
+#history{
+    overflow: scroll;
+    width: 380px;
+    height:450px;
+}
+/* set the position and design of the history div*/
+#history-div{
+  position: absolute;
+  top: 90px; 
+  left: 500px;
+  border:solid 5px;
+  border-color:brown;
+  width: 380px;
+   height:500px;
+   background-color:bisque;
+}
+
+/* this is the li tag for the result*/
+li{
+  list-style-type:none;
+  border: 1px solid black;
+  transition-duration: 0.4s;
+  background-color:whitesmoke;
+  margin-top: 4px;
+}
+
+  /*color of buttons and textbox*/
+ .btns,.answer{
+    background-color: black;  
+    color: white;
+    transition: 0.3s;
+ }
+
+ .equals{
+  background-color: maroon;  
+  color: white;
+  transition: 0.3s;
+ }
+
+ .btnsdEL, #clrHistory{
+    background-color: red;  
+    color: white;
+    transition: 0.3s;
+ }
+
+.btnclear,#clrHistory{
+  transition: 0.3s;
+}
+
+
+/* when the pointer is moved to the button, the color will change*/
+.btns:hover {
+    background-color: #b32c16;
+    opacity: 1
+  }
+/* when the pointer is moved to the button, the color will change*/
+.equals:hover{
+    background-color:black;
+    opacity: 1
+  }
+/* when the pointer is moved to the button, the color will change*/
+.btnsdEL:hover,.btnclear:hover,#clrHistory:hover {
+    background-color:green;
+    opacity: 1
+  }
+ 
+.btns,.btnsdEL,.btnclear{
+    border:solid;  
+    border-color: #f07f09;   
+    padding: 0px;
+    width:60px;
+    height:60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    border-radius: 30px;  
+  }
+.answer{
+    border:solid 15px;
+    border-color: #f07f09;   
+    width:300px;
+    height:60px;  
+    border-radius: 20px;
+    font-size: 38px;
+  }
+
+.equals{
+    border:solid;
+    border-color: #f07f09;   
+    width:400px;
+    height:60px; 
+    font-size: 45px;
+    border-radius: 10px;  
+  }
+
