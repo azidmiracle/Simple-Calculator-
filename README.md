@@ -260,6 +260,6 @@ Careful planning like what would the interface look be like and what are the fea
 # 9	References:
 
 ES6 Browser Compatibility Link:
-https://kangax.github.io/compat-table/es6/
+* https://kangax.github.io/compat-table/es6/
 Infix to Postfix Tutorial:
-https://www.youtube.com/watch?v=vq-nUF0G4fI
+* https://www.youtube.com/watch?v=vq-nUF0G4fI
