@@ -75,7 +75,8 @@ Clicking “Clear History” button will clear all the history that is being dis
 ### 3.2.2	  Response to undesired events
 1.	Extra character or undesired character will result to SYNTAX ERROR
 2.	Number divided by 0 will display “CAN’T DIVIDE BY 0”
-4	Software Design
+
+# 4 Software Design
 ## 4.1	Algorithm
 A.	Input type restriction
 1.	Check if the input character is numbers (0~9), operators (*,/,+,-,^), parentheses, decimal point, Enter or equal sign,
